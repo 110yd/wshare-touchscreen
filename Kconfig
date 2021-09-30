@@ -1,0 +1,10 @@
+config TOUCHSCREEN_WSH7
+    tristate "Waveshare 7 inch touchscreen with custom HID protocol"
+    help
+      Say Y here if you have a Waveshare 7inch HDMI LCD (B) touch screen
+      panel which implement not standard HID protocol, but custom one
+
+      If unsure, say N.
+
+      To compile this driver as a module, choose M here: the
+      module will be called wsh7-ts.
